@@ -1,0 +1,7 @@
+<% @articles.each do |article| %>
+  <a href="/articles/<%= article.id %>">
+  <p><%= article.title %></p>
+  <p><%= article.content %></p>
+  </a>
+<% end %>
+
